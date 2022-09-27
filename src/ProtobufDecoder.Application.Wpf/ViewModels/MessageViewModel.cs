@@ -205,7 +205,7 @@ namespace ProtobufDecoder.Application.Wpf.ViewModels
                 
                 bytes = Convert.FromBase64String(input);
             }
-            catch (Exception e) 
+            catch (Exception e) sss
             {
                 return CommandResult.Failure(string.Format(Strings.InputIsNotBase64, e.Message));
             }
